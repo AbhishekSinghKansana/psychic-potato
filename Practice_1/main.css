@@ -1,0 +1,249 @@
+* {
+   
+   margin: 0px;
+   padding: 0px;
+}
+
+.section1{
+    height:100vh ;
+    background-image: url(desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-logo{
+    margin-top: 20px;
+    margin-left: 20px;
+ 
+}
+
+.nav .menu{
+    display: flex;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.menu p{
+   margin-right: 30px; 
+   font-size: 1.3rem;
+   color: #E8FCFF;
+}
+.menu button{
+    margin-right: 30px; 
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+   font-weight: bold;
+   position: relative;
+   top: -5px;
+   
+}
+.design{
+
+    flex-grow: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.design h2{
+    color: #E8FCFF;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    position: relative;
+    top: -30px;
+  
+}
+/* SECTION 2 */
+.section2{
+    display: flex;
+    
+
+}
+.section2 .text{
+box-sizing: border-box;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-right: 40px;
+   padding-left: 40px;
+   
+}
+.section2 .text h1{
+    font-weight: bold;
+    font-family: 'Bakbak One', cursive;
+font-family: 'Gwendolyn', cursive;
+font-family: 'Open Sans', sans-serif;
+margin-bottom: 20px;
+}
+.section2 .text p{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.section2 .eggimg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFD302
+}
+.section2 .eggimg img {
+width: 80%;
+
+}
+
+/* SECTION 3 */
+.section3{
+    display: flex;
+    
+
+}
+.section3 .text{
+   width: 50%;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-right: 40px;
+   padding-left: 40px;
+   
+}
+.section3 .text h1{
+    font-weight: bold;
+    font-family: 'Bakbak One', cursive;
+font-family: 'Gwendolyn', cursive;
+font-family: 'Open Sans', sans-serif;
+margin-bottom: 20px;
+}
+.section3 .text p{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.section3 .eggimg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #FE7263
+    
+}
+.section3 .eggimg img {
+width: 80%;
+
+}
+
+.section4{
+    display: flex;
+
+}
+
+.section4 .img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.section4 .img img{
+    width:80% ;
+   
+}
+#berries{
+    background-color: #98DACD;
+}
+#oranges{
+    background-color: #5CC9FF;
+}
+
+/* SECTION 5 */
+.section5{
+  display: flex;
+  flex-direction: column;
+   height: 60vh;
+    padding: 80px;
+    padding-bottom: 10px;
+}
+.section5 .header {
+    margin-bottom: 60px;
+}
+.section5 .header h2 {
+    text-align: center;
+
+}
+.section5 .main{
+    display: flex;
+ 
+    flex-grow: 1;
+
+}
+.section5 .main .main3{
+    
+    display: flex;
+
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.section5 .main .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section5 .text{
+    width: 80%;
+    text-align: center;
+}
+.section5 .text p{
+    font-family: 'Bakbak One', cursive;
+font-family: 'Gwendolyn', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.section5 .main .footer .name {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+/* SECTION6 */
+.section6{
+
+    display: flex;
+
+}
+.section6 .img {
+    width: 25%;
+}
+
+.section6 .img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* SECTION7 */
+.section7{
+    height: 30vh;
+    background-color: #90D4C5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section7 .menu span{
+     margin-right: 20px;}
+ .section7 .icons span{
+    margin-right: 10px;
+ }
+
